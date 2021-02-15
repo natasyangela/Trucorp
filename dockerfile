@@ -1,6 +1,6 @@
 FROM php:7.4-apache
 
-COPY ./index.php /var/www/html/
+COPY ./nomor3/ /var/www/html/
 
 RUN chown -R www-data /var/www
 RUN chgrp -R www-data /var/www
